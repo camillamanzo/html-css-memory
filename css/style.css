@@ -33,7 +33,7 @@ main{
     margin: 0 auto;
 }
 
-img, #uncovered-card{
+img, #uncovered-card, .hover{
     height: 180px;
     width: 163px;
     margin: 10px 10px;
@@ -55,11 +55,15 @@ img, #uncovered-card{
 
 .hover{
     display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
 }
 
 .text{
     font-size: 20px;
     position: absolute;
+    right:0;
 }
 
 .card:hover .hover{
