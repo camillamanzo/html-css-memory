@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.float-left{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(151, 218, 235);
+    text-align: center;
+    margin: auto;
+}
+
+header{
+    color: white;
+    font-size: 35px;
+    height: 100px;
+    text-transform: uppercase;
+}
+
+main{
+    width: 51%;
+    margin: 0 auto;
+}
+
+img, #uncovered-card{
+    height: 180px;
+    width: 163px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    /* background-size: contain; */
+    /* box-shadow: 5px black; */
+    /* border: thin solid gray; */
+    /* position: relative; */
+    
+}
+
+#uncovered-card{
+    background-color: white;
+}
+
+footer{
+    padding: 10px;
+}
+
