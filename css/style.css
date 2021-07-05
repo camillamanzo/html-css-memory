@@ -49,6 +49,47 @@ img, #uncovered-card{
     background-color: white;
 }
 
+.card{
+    position: relative;
+}
+
+.hover{
+    display: none;
+}
+
+.text{
+    font-size: 20px;
+    position: absolute;
+}
+
+.card:hover .hover{
+    display: inline-block;
+}
+
+.pink{
+    color: pink;
+}
+
+.orange{
+    color: orange;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.purple{
+    color: purple;
+}
+
+.blue{
+    color: blue;
+}
+
 footer{
     padding: 10px;
 }
