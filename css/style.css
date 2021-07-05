@@ -53,10 +53,15 @@ img, #uncovered-card, .hover{
     position: relative;
 }
 
+.card:hover .hover{
+    display: inline-block;
+}
+
 .hover{
     display: none;
     position: absolute;
-    z-index: 2;
+    top: 0;
+    right: 0;
     background-color: white;
 }
 
@@ -64,10 +69,8 @@ img, #uncovered-card, .hover{
     font-size: 20px;
     position: absolute;
     right:0;
-}
-
-.card:hover .hover{
-    display: inline-block;
+    bottom: 0;
+    left: 0;
 }
 
 .pink{
